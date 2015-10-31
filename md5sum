@@ -1,0 +1,13 @@
+
+Iso images:
+
+28f5e3a29529b8895a56c1705d5e2da4  MintPup-jwm-icewm-hybrid-26.07.2015.iso
+
+
+Extra modules:
+
+fdd08db0b9b9ca6e2c108263e6c70abe  02-locale-mintpup-jwm-icewm-xz.squashfs
+
+0b79ff15ec79390858c3a02b97a12a6e  06-DEVX-Python-add-PPA-repo.squashfs
+
+e8d8689ce20bf5f88b49d2be82a72d69  091-man-doc-info-mintpup-jwm.squashfs
