@@ -42,13 +42,15 @@ Or you can upgrade fixed gnome-mplayer-1.0.7 deb with:
     sudo apt-get install gnome-mplayer-1.0.7
 ```
 
-**7.** New fixes for frugal installer from Fred described [here](http://murga-linux.com/puppy/viewtopic.php?p=867572#867572)
-Upgrade the installer package with:
+**7.** The installer scripts bugs fixing created new problem and the last two versions removed from the repository. 
+Recommended to make sure you have this version on your system by reinstalling this package: [mintpupinstallscripts_1.0.4_i386.deb](http://kazzascorner.com.au/saintless/MintPup/Packages/Included/mintpupinstallscripts_1.0.4_i386.deb)
+
+Or by running in terminal:
 ```
 sudo apt-get update
+sudo apt-get remove mintpupinstallscripts
 sudo apt-get install mintpupinstallscripts
 ```
-
 **8.** The included /sbin/cryptsetup doesn't create working encrypted save file. Install this fixed [cryptsetup-bin_1.6.6-9-mintpup_i386.deb](http://kazzascorner.com.au/saintless/MintPup/Packages/Included/cryptsetup-bin_1.6.6-9-mintpup_i386.deb) or run in terminal:
 ```
 sudo apt-get update
