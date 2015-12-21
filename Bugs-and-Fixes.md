@@ -51,6 +51,8 @@ sudo apt-get update
 sudo apt-get remove mintpupinstallscripts
 sudo apt-get install mintpupinstallscripts
 ```
+In case you have some problem with this package check out for updated deb package from Fred [here.](http://murga-linux.com/puppy/viewtopic.php?p=877514#877514)
+
 **8.** The included /sbin/cryptsetup doesn't create working encrypted save file. Install this fixed [cryptsetup-bin_1.6.6-9-mintpup_i386.deb](http://kazzascorner.com.au/saintless/MintPup/Packages/Included/cryptsetup-bin_1.6.6-9-mintpup_i386.deb) or run in terminal:
 ```
 sudo apt-get update
