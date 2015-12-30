@@ -68,4 +68,11 @@ sudo apt-get install fixdepinstall
 ```
 
 **10.** Only for **casper-boot** users - [Alternative initrd.lz](https://github.com/MintPup/MintPup-Trusty/releases/download/v0.1/initrd.lz) and [md5sum](https://github.com/MintPup/MintPup-Trusty/blob/master/md5sum) - With the official initrd.lz for casper-boot (included in the iso) you can use save file only on vfat partition for security reasons. There is a warning in casper-helpers script - **being able to mount a journalled filesystem and replay the journal could cause data loss when a live CD is booted on a system where filesystems are in use by hibernated operating systems**. This initrd.lz includes mods to load casper-rw save file (also encrypted) from ntfs, ext2, ext3, ext4 and vfat partitions. But use it at your own risk!
-I don't know if this warning is valid for porteus-boot and any other linux with persistent options to use save file on ext and ntfs partitions. Maybe they have some kind of prevention but I can't confirm or deny this. 
+I don't know if this warning is valid for porteus-boot and any other linux with persistent options to use save file on ext and ntfs partitions. Maybe they have some kind of prevention but I can't confirm or deny this.
+
+**11.** Fix for squashfs module loading scripts from Fred. [More information read here.](http://murga-linux.com/puppy/viewtopic.php?p=878996#878996)
+```
+sudo apt-get update
+sudo apt-get install sfsload portablesfs-loadsfs-fuse
+```
+
