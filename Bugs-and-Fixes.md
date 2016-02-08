@@ -87,3 +87,7 @@ sudo apt-get install frisbee
 sudo apt-get update
 sudo apt-get install apt2sfs
 ```
+
+**14.** Fix for porteus-boot initrd1.xz. More information about this problem read [here.](http://murga-linux.com/puppy/viewtopic.php?p=885874&sid=a1a579b99b8a00be9a2b36bc9a227635#885874)
+In case you are using **encrypted save file and usb keyboard** use this fixed [initrd1.xz-hid-mintpup](https://github.com/MintPup/MintPup-Trusty/releases/download/v0.1/initrd1.xz-hid-mintpup) instead initrd1.xz included in the iso. It will be replaced in next iso update.
+In case you don't use **encrypted save file + usb keyboard** combination there is no need to change initrd1.xz yet.
