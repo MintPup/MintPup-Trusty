@@ -91,3 +91,22 @@ sudo apt-get install apt2sfs
 **14.** Fix for porteus-boot initrd1.xz. More information about this problem read [here.](http://murga-linux.com/puppy/viewtopic.php?p=885874&sid=a1a579b99b8a00be9a2b36bc9a227635#885874)
 In case you are using **encrypted save file and usb keyboard** use this fixed [initrd1.xz-hid-mintpup](https://github.com/MintPup/MintPup-Trusty/releases/download/v0.1/initrd1.xz-hid-mintpup) instead initrd1.xz included in the iso. It will be replaced in next iso update.
 In case you don't use **encrypted save file + usb keyboard** combination there is no need to change initrd1.xz yet.
+
+**15.** Upgrading libc6 with the latest security fixes breaks some Firefox functions as "Open link in new tab" for example. The latest Firefox version in the repository is special Mint build. I guess it will be fixed in time. Till then if you use Firefox downgrade it to the official Ubuntu version:
+```
+sudo apt-get install firefox=44.0.2+build1-0ubuntu0.14.04.1
+
+```
+
+**16.** With porteus-boot and only when using save on exit code upgrading libc6 could create some issues. More information and workarownd read [here](http://murga-linux.com/puppy/viewtopic.php?p=889934&sid=00f59036fe7b1df6f8bc7168fe1df597#889934) and the fix [here.](http://murga-linux.com/puppy/viewtopic.php?p=890342&sid=00f59036fe7b1df6f8bc7168fe1df597#890342)
+Install this package to fix the problem:
+```
+sudo apt-get update
+sudo apt-get install porteusbootscripts
+
+```
+Porteus-boot scripts will be upgraded to new versions with some improvements for save on exit. The changes are not well tested in MintPup yet. In case you experience some problem you can downgrade the package to the previous version (it has only the fix in snapmergepuppy script for the problem described above and will restore the other scripts to the versions included in the iso):
+```
+sudo apt-get install porteusbootscripts=0.0.1
+
+```
