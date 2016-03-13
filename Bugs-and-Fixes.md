@@ -110,3 +110,14 @@ Porteus-boot scripts will be upgraded to new versions with some improvements for
 sudo apt-get install porteusbootscripts=0.0.1
 
 ```
+
+**17.** New packages uploaded **sfs-get-mintpup** and **mintpup-repo-updater**.
+
+We need to change some scripts and free some space by removing modules from kazzascorner.com.au and smokey01.com in order to make the maintaining easier. Sfs-get script will download the extra modules from github.com in the future for all DD versions and MintPup.
+
+**It is recommended to install both packages by running these commands to keep sfs-get and mintpup-repo up to date:**
+```
+sudo apt-get update
+sudo apt-get install mintpup-repo-updater sfs-get-mintpup
+sudo apt-get update
+```
