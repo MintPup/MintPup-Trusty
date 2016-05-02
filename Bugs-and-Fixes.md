@@ -94,7 +94,7 @@ In case you don't use **encrypted save file + usb keyboard** combination there i
 
 **15.** Upgrading libc6 with the latest security fixes breaks some Firefox functions as "Open link in new tab" for example. The latest Firefox version in the repository is special Mint build. I guess it will be fixed in time. Till then if you use Firefox downgrade it to the official Ubuntu version:
 ```
-sudo apt-get install firefox=44.0.2+build1-0ubuntu0.14.04.1
+sudo apt-get -t trusty install firefox
 
 ```
 
