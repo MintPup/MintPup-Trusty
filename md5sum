@@ -1,23 +1,31 @@
 
 Iso images:
 
-28f5e3a29529b8895a56c1705d5e2da4  MintPup-jwm-icewm-hybrid-26.07.2015.iso
+77e41836d8e6f94096b20ddc5ef792b1  MintPup-jwm-icewm-hybrid-07.05.2016.iso
 
 
 Extra modules:
 
-fdd08db0b9b9ca6e2c108263e6c70abe  02-locale-mintpup-jwm-icewm-xz.squashfs
 
-0b79ff15ec79390858c3a02b97a12a6e  06-DEVX-Python-add-PPA-repo.squashfs
+1f822c2b7d3d7b4ad0f7dcd6b7483a75  99-new-save-setup-mintpup.squashfs
 
-e8d8689ce20bf5f88b49d2be82a72d69  091-man-doc-info-mintpup-jwm.squashfs
+abdcc2023c938899137f4d1a3f2ffd66  02-linux-firmware_1.127.14_all-xz.squashfs
+
+fdd08db0b9b9ca6e2c108263e6c70abe  02-locale-mintpup-jwm-icewm-xz.squashfs.old
+
+9bb1d8ca220107d773193296038b2e08  06-DEVX-Python-add-PPA-repo.squashfs
+
+740794b1b7248379c9df4afc5f87913d  07-mintpup-vbox-light.squashfs
+
+d8c7a05b21379f6339b6ec3526a0cf47  09-mintpup-repo-2016.05.07.squashfs
 
 9c2d090b500c0ac26df966871a821141  initrd.lz
 
 aa7bc3e44dc4e9491ad16857eb8cadde  slimjet-i386.squashfs
 
-4d359b42db4c717ac9af08f3a5da8a32  09-mintpup-repo-2016.02.05.squashfs
-
 1f822c2b7d3d7b4ad0f7dcd6b7483a75  99-new-save-setup-mintpup.squashfs
 
 63117ca1098125e1fa8511f62f21b036  09-mintpup-repo-2016.03.13.squashfs
+
+98815960921debf5ffecaeb6718fdf7d  linux-firmware_1.127.14_all.deb
+
